@@ -26,10 +26,34 @@
     color: pink;
 }
 
+body{
+    margin:0;
+    padding: 0;
+}
+
 .welcome{
-    background-color: rgb(255, 231, 235);
-    color: white;
-    padding: 100px 100px;
+    background-color: white;
+    color: pink;
+    padding: 10% 5%;
     text-align: center;
+    display: box;
+}
+
+.contentA{
+    background-color: pink;
+    padding: 10% 5%;
+    display: flex; 
+    text-align: center;
+}
+
+.contentA img {
+    width: 80%;
+    float: left;
+}
+
+.contentA p {
+    padding: 5%;
+    font-size: 3vw;
+    color: white;
 }
 
