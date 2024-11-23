@@ -1,59 +1,84 @@
+/* Navigation bar */
 .navbar{
-    background-color: pink;
+    background-color: #333;
+    overflow: hidden;
     position: fixed;
-    top:0;
-    left:0;
-    width:100%;
-    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%; 
 }
-
 .navbar li{
     list-style-type: none;
     display: inline;
-
 }
 
 .navbar a{
-    font-size: 38px;
-    padding: 14px 16px; 
     text-decoration: none;
+    padding: 14px 16px;
     color: white;
-
+    font-size : 24px;
 }
 
 .navbar a:hover{
-    background-color: white;
-    color: pink;
+    background-color: #ddd;
+    color: black;
 }
 
+/*Home Page*/
+
 body{
-    margin:0;
+    margin: 0;
     padding: 0;
 }
 
+.contact {
+    background-image: url("catPrince.jpg");
+}
+
 .welcome{
-    background-color: white;
-    color: pink;
-    padding: 10% 5%;
-    text-align: center;
+    background-color: teal;;
+    color: white;
+    padding: 10% 2%;
     display: box;
-}
-
-.contentA{
-    background-color: pink;
-    padding: 10% 5%;
-    display: flex; 
     text-align: center;
 }
 
-.contentA img {
+.welcome h1{
+    font-size: 75px;
+}
+
+.contentBoxA{
+    background-color: white;;
+    padding: 10% 5%;
+    display: flex;
+}
+
+.contentBoxA p{
+    font-size: 20px;
+    float: right;
+    color: black;
+}
+
+.contentBoxA img{
     width: 80%;
     float: left;
+    padding-right: 5%;
 }
 
-.contentA p {
-    padding: 5%;
-    font-size: 3vw;
+.contentBoxB{
+    background-color: rgb(94, 128, 0);;
     color: white;
+    padding: 10% 2%;
+    display: block;
+    text-align: center;
 }
+
+/*Video*/
+iframe{
+    width: 600px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
 
